@@ -1,0 +1,48 @@
+div#off-canvas {
+    background-color: #fff;
+}
+
+div#off-canvas > ul.menu {
+    margin-top: 1rem;
+}
+
+div#off-canvas > ul.menu > li:first-child {
+    margin-left: 1.75rem;
+}
+
+div#off-canvas > ul.menu > li {
+    margin-left: 0.5rem;
+}
+
+div#off-canvas > ul.menu > li > ul.menu > li {
+    margin-top: 1rem;
+}
+
+div#off-canvas > ul.menu > li > ul.menu > li > a {
+    padding: 0;
+    color: #000;
+}
+
+div.title-bar {
+    opacity: 0.92;
+    background-color: #bf1952;
+}
+
+div.title-bar-left > img {
+    margin-left: 2rem;
+}
+
+div.top-bar {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    opacity: 0.92;
+    background-color: #bf1952;
+}
+
+div.top-bar-right > ul.menu > li {
+    background-color: #bf1952;
+}
+
+div.top-bar-right > ul.menu > li > a {
+    color: #fff;
+}
