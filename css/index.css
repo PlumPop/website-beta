@@ -119,3 +119,14 @@ h1.title {
         margin-bottom: 1.5rem;
     }
 }
+
+div.footer {
+    margin-top: 2.5rem;
+    height: 100px;
+    background-color: #bf1952;
+    color: #fff;
+}
+
+div.footer p {
+    margin-bottom: 0;
+}
