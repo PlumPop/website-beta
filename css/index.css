@@ -46,3 +46,63 @@ div.top-bar-right > ul.menu > li {
 div.top-bar-right > ul.menu > li > a {
     color: #fff;
 }
+
+div.headliner {
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-color: #000;
+}
+
+div.headliner .cell:first-child {
+    margin-top: 7rem;
+}
+
+div.headliner p {
+    line-height: 5rem;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.headliner .cell {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    div.headliner p {
+        width: 15rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    div.headliner .cell:first-child {
+        margin-top: 5rem;
+    }
+
+    div.headliner .cell {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    div.headliner p {
+        width: 25rem;
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.headliner .cell {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    div.headliner p {
+        width: 50rem;
+    }
+}
