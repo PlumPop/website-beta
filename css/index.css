@@ -116,7 +116,18 @@ h1.title {
 @media screen and (max-width: 39.9375em) {
     h1.title {
         margin-top: 2.5rem;
-        margin-bottom: 1.5rem;
+    }
+}
+
+p.coming-soon {
+    font-size: 2rem;
+    color: gray;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    p.coming-soon {
+        font-size: 1.25rem;
     }
 }
 
