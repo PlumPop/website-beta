@@ -106,3 +106,16 @@ div.headliner p {
         width: 50rem;
     }
 }
+
+h1.title {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    h1.title {
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
