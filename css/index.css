@@ -180,6 +180,16 @@ p.plumpop-beacon-text {
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     p.plumpop-beacon-text {
         margin-top: 2.5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    p.plumpop-beacon-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
