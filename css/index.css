@@ -131,6 +131,58 @@ p.coming-soon {
     }
 }
 
+div.app-section {
+    margin-top: 2.5rem;
+}
+
+p.plumpop-mobile-app-screenshot-text {
+    margin-top: 9rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    p.plumpop-mobile-app-screenshot-text {
+        margin-top: 2rem;
+    }
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    p.plumpop-mobile-app-screenshot-text {
+        padding-left: 1.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    h1.contactless-title {
+        margin-top: 1rem;
+    }
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    h1.contactless-title {
+        margin-top: 3rem;
+    }
+}
+
+img.plumpop-beacon {
+    margin-top: 2rem;
+}
+
+p.plumpop-beacon-text {
+    margin-top: 1.5rem;
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    p.plumpop-beacon-text {
+        margin-top: 2.5rem;
+    }
+}
+
 div.footer {
     margin-top: 2.5rem;
     height: 100px;
