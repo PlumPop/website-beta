@@ -131,6 +131,11 @@ p.coming-soon {
     }
 }
 
+img.vendor-logo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 div.app-section {
     margin-top: 2.5rem;
 }
