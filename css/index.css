@@ -183,6 +183,33 @@ p.plumpop-beacon-text {
     }
 }
 
+img.icon {
+    margin-top: 5rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    img.icon {
+        margin-top: 3rem;
+    }
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    p.collect-tokens-text, p.enjoy-rewards-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    p.collect-tokens-text, p.enjoy-rewards-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 div.footer {
     margin-top: 2.5rem;
     height: 100px;
