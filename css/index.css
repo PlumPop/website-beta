@@ -54,7 +54,7 @@ div.headliner {
 }
 
 div.headliner .cell:first-child {
-    margin-top: 5rem;
+    margin-top: 2.25rem;
 }
 
 div.headliner p {
@@ -98,6 +98,22 @@ div.headliner p {
     div.headliner .cell {
         padding-left: 10rem;
     }
+}
+
+a.download-app {
+    visibility: hidden;
+    border-radius: 4px;
+    background-color: darkorange;
+}
+
+a.download-app span {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+a.download-app:link,
+a.download-app:visited {
+    background-color: darkorange;
 }
 
 h1.title {
