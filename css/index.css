@@ -55,7 +55,7 @@ div.headliner {
 }
 
 div.headliner .cell:first-child {
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 div.headliner p {
@@ -68,8 +68,7 @@ div.headliner p {
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
     div.headliner .cell {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1.5rem;
     }
 
     div.headliner p {
@@ -82,28 +81,23 @@ div.headliner p {
 /* medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     div.headliner .cell:first-child {
-        margin-top: 5rem;
+        margin-top: 22rem;
     }
 
     div.headliner .cell {
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
-
-    div.headliner p {
-        width: 25rem;
+        padding-left: 7rem;
+        padding-right: 3.5rem;
     }
 }
 
 /* large and up */
 @media screen and (min-width: 64em) {
-    div.headliner .cell {
-        padding-left: 10rem;
-        padding-right: 10rem;
+    div.headliner .cell:first-child {
+        margin-top: 27rem;
     }
 
-    div.headliner p {
-        width: 50rem;
+    div.headliner .cell {
+        padding-left: 10rem;
     }
 }
 
