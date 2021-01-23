@@ -46,10 +46,17 @@ div.top-bar-right > ul.menu > li > a {
 }
 
 div.footer {
-    margin-top: 2.5rem;
+    margin-top: 5rem;
     height: 100px;
     background-color: #bf1952;
     color: #fff;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.footer {
+        margin-top: 2.5rem;
+    }
 }
 
 div.footer p {
