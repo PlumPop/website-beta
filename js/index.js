@@ -55,8 +55,39 @@ function getNumSlidesPerView(windowWidth) {
     return numSlidesPerView;
 }
 
+function initSwiperComponent() {
+    return new Swiper(SWIPER_CONTAINER_QUERY_SELECTOR, {
+        speed: 1500,
+        slidesPerView: getNumSlidesPerView(0),
+        grabCursor: true,
+        touchRatio: 1.75,
+        threshold: 5,
+        resistance: false,
+        freeMode: true,
+        freeModeMomentumRatio: 1,
+        freeModeMomentumVelocityRatio: 0.15,
+        freeModeSticky: true,
+        loop: true,
+        breakpoints: {
+            540: {
+                slidesPerView: getNumSlidesPerView(540),
+            },
+            840: {
+                slidesPerView: getNumSlidesPerView(840),
+            },
+            1100: {
+                slidesPerView: getNumSlidesPerView(1100)
+            }
+        },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        }
+    });
+}
+
 function resizeSwiperContainerPadding() {
-    let $swiperContainerContainer = $("div#swiper-container-container");
+    const $swiperContainerContainer = $("div#swiper-container-container");
     const swiperContainerContainerWidth = $swiperContainerContainer.width();
 
     const windowWidth = $(window).width();
@@ -70,30 +101,8 @@ function resizeSwiperContainerPadding() {
 }
 
 function initSwiper() {
-    const swiper = new Swiper(SWIPER_CONTAINER_QUERY_SELECTOR, {
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false
-        },
-        speed: 1500,
-        loop: true,
-        slidesPerView: getNumSlidesPerView(0),
-        breakpoints: {
-            540: {
-                slidesPerView: getNumSlidesPerView(540),
-            },
-            840: {
-                slidesPerView: getNumSlidesPerView(840),
-            },
-            1100: {
-                slidesPerView: getNumSlidesPerView(1100)
-            }
-        },
-        grabCursor: true
-    });
-
+    const swiper = initSwiperComponent();
     resizeSwiperContainerPadding();
-
     swiper.on("resize", function () {
         resizeSwiperContainerPadding();
     });
