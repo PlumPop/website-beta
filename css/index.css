@@ -59,9 +59,9 @@ div.headliner > div.cell:first-child {
 
 div.headliner > div.cell:first-child p {
     line-height: 5rem;
-    color: #fff;
     font-size: 5rem;
     font-weight: 500;
+    color: #fff;
 }
 
 /* small screen only */
@@ -72,8 +72,8 @@ div.headliner > div.cell:first-child p {
 
     div.headliner > div.cell:first-child p {
         width: 15rem;
-        font-size: 3.5rem;
         line-height: 4rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -215,7 +215,7 @@ img.icon {
 }
 
 p.coming-soon {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: gray;
 }
 
@@ -226,9 +226,22 @@ p.coming-soon {
     }
 }
 
-img.vendor-logo {
-    margin-left: 1rem;
-    margin-right: 1rem;
+div.swiper-container {
+    margin-top: 1rem;
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    div.swiper-container {
+        margin-top: 1.75rem;
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.swiper-container {
+        margin-top: 2rem;
+    }
 }
 
 div.footer {
