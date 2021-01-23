@@ -4,9 +4,9 @@ const PLUMPOP_APP_STORE_URL = "https://apps.apple.com/us/app/super-mario-run/id1
 const ANDROID_USER_AGENT_REGEX = /android/i;
 const PLUMPOP_GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=com.nintendo.zara&hl=en_US&gl=US";
 
-window.addEventListener("DOMContentLoaded", function () {
+function initDownloadAppButtonSmallScreen() {
     let showButton = false;
-    const downloadAppButton = document.querySelector("a.download-app");
+    const downloadAppButton = document.querySelector("a.download-app-small");
 
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     if (IOS_USER_AGENT_REGEX.test(userAgent) && !window.MSStream) {
@@ -20,4 +20,17 @@ window.addEventListener("DOMContentLoaded", function () {
     if (showButton) {
         downloadAppButton.style.visibility = "visible";
     }
+}
+
+function initDownloadAppButtonsMediumScreen() {
+    const downloadIOSAppButton = document.querySelector("a#download-ios-app-medium");
+    downloadIOSAppButton.href = PLUMPOP_APP_STORE_URL;
+
+    const downloadAndroidAppButton = document.querySelector("a#download-android-app-medium");
+    downloadAndroidAppButton.href = PLUMPOP_GOOGLE_PLAY_URL;
+}
+
+window.addEventListener("DOMContentLoaded", function () {
+    initDownloadAppButtonSmallScreen();
+    initDownloadAppButtonsMediumScreen();
 });
