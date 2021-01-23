@@ -50,7 +50,6 @@ div.headliner {
     height: 600px;
     background-position: center;
     background-size: cover;
-    background-color: #000;
 }
 
 div.headliner > div.cell:first-child {
