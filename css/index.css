@@ -132,23 +132,6 @@ h1.title {
     }
 }
 
-p.coming-soon {
-    font-size: 2rem;
-    color: gray;
-}
-
-/* small screen only */
-@media screen and (max-width: 39.9375em) {
-    p.coming-soon {
-        font-size: 1.25rem;
-    }
-}
-
-img.vendor-logo {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
 div.app-section {
     margin-top: 2.5rem;
 }
@@ -187,9 +170,8 @@ p.plumpop-beacon-text {
     }
 
     p.plumpop-beacon-text {
-        margin-top: 2.5rem;
-        padding-left: 5rem;
-        padding-right: 5rem;
+        margin-top: 8.5rem;
+        padding-left: 6rem;
     }
 }
 
@@ -206,7 +188,14 @@ p.plumpop-beacon-text {
 }
 
 img.icon {
-    margin-top: 3rem;
+    margin-top: 5rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    img.icon {
+        margin-top: 3rem;
+    }
 }
 
 /* medium only */
@@ -219,14 +208,27 @@ img.icon {
 
 /* large and up */
 @media screen and (min-width: 64em) {
-    img.icon {
-        margin-top: 5rem;
-    }
-
     p.collect-tokens-text, p.enjoy-rewards-text {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+}
+
+p.coming-soon {
+    font-size: 2rem;
+    color: gray;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    p.coming-soon {
+        font-size: 1.25rem;
+    }
+}
+
+img.vendor-logo {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 div.footer {
