@@ -135,22 +135,31 @@ div.app-section {
     margin-top: 2.5rem;
 }
 
-p.plumpop-mobile-app-screenshot-text {
-    margin-top: 9rem;
+ul.plumpop-mobile-app-screenshot-text {
+    margin-top: 8rem;
+    margin-left: 2.5rem;
+}
+
+ul.plumpop-mobile-app-screenshot-text > li:not(:first-child) {
+    margin-top: 4rem;
+}
+
+ul.plumpop-mobile-app-screenshot-text > li > span {
+    font-size: 1.75rem;
+    font-weight: 500;
 }
 
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
-    p.plumpop-mobile-app-screenshot-text {
+    ul.plumpop-mobile-app-screenshot-text {
         margin-top: 2rem;
     }
 }
 
 /* medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    p.plumpop-mobile-app-screenshot-text {
-        padding-left: 1.5rem;
-        padding-right: 2.5rem;
+    ul.plumpop-mobile-app-screenshot-text {
+        padding-left: 4.5rem;
     }
 }
 
