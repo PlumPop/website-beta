@@ -205,20 +205,11 @@ img.icon {
     }
 }
 
-/* medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    p.collect-tokens-text, p.enjoy-rewards-text {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-}
-
-/* large and up */
-@media screen and (min-width: 64em) {
-    p.collect-tokens-text, p.enjoy-rewards-text {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+p.tokens-subtitle {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    font-variant-caps: all-petite-caps;
+    color: #787879;
 }
 
 p.coming-soon {
