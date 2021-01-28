@@ -251,6 +251,25 @@ div.swiper-container {
     }
 }
 
+h1.contact-us {
+    margin-top: 3rem;
+}
+
+a.send-us-email {
+    border-radius: 4px;
+}
+
+a.send-us-email:link,
+a.send-us-email:visited {
+    background-color: #bf1952;
+}
+
+a.send-us-email:active,
+a.send-us-email:hover,
+a.send-us-email:focus {
+    background-color: #e22263;
+}
+
 div.footer {
     margin-top: 5rem;
     height: 100px;
