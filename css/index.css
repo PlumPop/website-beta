@@ -135,30 +135,30 @@ div.app-section {
     margin-top: 2.5rem;
 }
 
-ul.plumpop-mobile-app-screenshot-text {
+ul.plumpop-mobile-app-screenshot-list {
     margin-top: 8rem;
     margin-left: 2.5rem;
 }
 
-ul.plumpop-mobile-app-screenshot-text > li:not(:first-child) {
+ul.plumpop-mobile-app-screenshot-list > li:not(:first-child) {
     margin-top: 4rem;
 }
 
-ul.plumpop-mobile-app-screenshot-text > li > span {
+ul.plumpop-mobile-app-screenshot-list > li > span {
     font-size: 1.75rem;
     font-weight: 500;
 }
 
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
-    ul.plumpop-mobile-app-screenshot-text {
+    ul.plumpop-mobile-app-screenshot-list {
         margin-top: 2rem;
     }
 }
 
 /* medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    ul.plumpop-mobile-app-screenshot-text {
+    ul.plumpop-mobile-app-screenshot-list {
         padding-left: 4.5rem;
     }
 }
@@ -167,8 +167,8 @@ img.plumpop-beacon {
     margin-top: 2rem;
 }
 
-p.plumpop-beacon-text {
-    margin-top: 1.5rem;
+ul.plumpop-beacon-list {
+    margin-top: 2.5rem;
 }
 
 /* medium only */
@@ -177,9 +177,9 @@ p.plumpop-beacon-text {
         margin-top: 5rem;
     }
 
-    p.plumpop-beacon-text {
-        margin-top: 8.5rem;
-        padding-left: 6rem;
+    ul.plumpop-beacon-list {
+        margin-top: 8rem;
+        padding-left: 3.5rem;
     }
 }
 
@@ -189,9 +189,8 @@ p.plumpop-beacon-text {
         margin-top: 4rem;
     }
 
-    p.plumpop-beacon-text {
-        padding-left: 2rem;
-        padding-right: 2rem;
+    ul.plumpop-beacon-list {
+        padding-left: 4.5rem;
     }
 }
 
