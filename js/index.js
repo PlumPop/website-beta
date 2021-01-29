@@ -8,6 +8,10 @@ const SWIPER_CONTAINER_QUERY_SELECTOR = "div.swiper-container";
 
 const VENDOR_LOGO_WIDTH = 250;
 
+function openURL(url) {
+    window.open(url);
+}
+
 function initDownloadAppButtonSmallScreen() {
     let showButton = false;
     const downloadAppButton = document.querySelector("a.download-app-small");
