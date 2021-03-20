@@ -45,6 +45,11 @@ div.top-bar-right > ul.menu > li > a {
     color: #fff;
 }
 
+div.top-bar-right > ul.menu > li > a.current-page-link {
+    cursor: default;
+    font-weight: bold;
+}
+
 div.footer {
     margin-top: 5rem;
     height: 100px;
