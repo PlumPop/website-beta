@@ -50,6 +50,41 @@ div.top-bar-right > ul.menu > li > a.current-page-link {
     font-weight: bold;
 }
 
+div.headliner {
+    height: 600px;
+    background-color: black;
+}
+
+div.headliner > div.cell:first-child p {
+    margin-top: 25rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.headliner > div.cell:first-child p {
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    div.headliner > div.cell:first-child p {
+        line-height: 4rem;
+        font-size: 4rem;
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.headliner > div.cell:first-child p {
+        line-height: 5rem;
+        font-size: 5rem;
+    }
+}
+
 div.footer {
     margin-top: 5rem;
     height: 100px;
