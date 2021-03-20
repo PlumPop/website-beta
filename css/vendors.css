@@ -85,6 +85,18 @@ div.headliner > div.cell:first-child p {
     }
 }
 
+h1.title {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    h1.title {
+        margin-top: 2.5rem;
+    }
+}
+
 div.footer {
     margin-top: 5rem;
     height: 100px;
