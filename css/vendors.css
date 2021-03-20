@@ -52,7 +52,6 @@ div.top-bar-right > ul.menu > li > a.current-page-link {
 
 div.headliner {
     height: 600px;
-    background-color: black;
 }
 
 div.headliner > div.cell:first-child p {
@@ -94,6 +93,26 @@ h1.title {
 @media screen and (max-width: 39.9375em) {
     h1.title {
         margin-top: 2.5rem;
+    }
+}
+
+div.benefits-section {
+    margin-top: 2.5rem;
+}
+
+h2.title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul.benefits-list {
+    padding-left: 1.5rem;
+}
+
+/* small only */
+@media screen and (max-width: 39.9375em) {
+    ul.benefits-list {
+        padding-left: 0;
     }
 }
 
