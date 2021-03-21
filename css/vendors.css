@@ -155,9 +155,33 @@ ul.pricing-list {
     padding-right: 2rem;
 }
 
+a.call-now {
+    margin-top: 0.75rem;
+    border-radius: 4px;
+}
+
+a.call-now span {
+    font-weight: 900;
+}
+
+a.call-now:link,
+a.call-now:visited {
+    background-color: darkorange;
+}
+
+span.phone-number {
+    font-weight: bold;
+    color: #aa1850;
+}
+
+span.phone-number {
+    font-size: 2.5rem;
+}
+
 div.footer {
     margin-top: 5rem;
     height: 100px;
+
     background-color: #bf1952;
     color: #fff;
 }
