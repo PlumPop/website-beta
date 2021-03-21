@@ -96,7 +96,7 @@ h1.title {
     }
 }
 
-div.benefits-section {
+div.benefits-section, div.hardware-section {
     margin-top: 2.5rem;
 }
 
@@ -107,12 +107,27 @@ h2.title {
 
 ul.benefits-list {
     padding-left: 1.5rem;
+    padding-right: 2.5rem;
 }
 
 /* small only */
 @media screen and (max-width: 39.9375em) {
     ul.benefits-list {
         padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+p.register-kit {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+/* small only */
+@media screen and (max-width: 39.9375em) {
+    p.register-kit {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
