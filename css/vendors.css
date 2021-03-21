@@ -19,8 +19,12 @@ div#off-canvas > ul.menu > li > ul.menu > li {
 }
 
 div#off-canvas > ul.menu > li > ul.menu > li > a {
-    padding: 0;
     color: #000;
+}
+
+ul.menu > li > a.current-page-link {
+    cursor: default;
+    font-weight: bold;
 }
 
 div.title-bar {
@@ -43,11 +47,6 @@ div.top-bar-right > ul.menu > li {
 
 div.top-bar-right > ul.menu > li > a {
     color: #fff;
-}
-
-div.top-bar-right > ul.menu > li > a.current-page-link {
-    cursor: default;
-    font-weight: bold;
 }
 
 div.headliner {
