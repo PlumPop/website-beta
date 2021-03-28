@@ -95,39 +95,29 @@ h1.title {
     }
 }
 
-div.benefits-section, div.hardware-section {
-    margin-top: 2.5rem;
-}
-
 h2.title {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-ul.benefits-list {
-    padding-left: 1.5rem;
-    padding-right: 2.5rem;
+div.perspective-section blockquote {
+    margin-top: 1.5rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-left: 0.6rem solid #bf1952;
+    text-align: center;
 }
 
-/* small only */
+/* small screen only */
 @media screen and (max-width: 39.9375em) {
-    ul.benefits-list {
-        padding-left: 0;
-        padding-right: 0;
+    div.perspective-section blockquote {
+        padding: 1rem;
     }
 }
 
-p.register-kit {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-}
-
-/* small only */
-@media screen and (max-width: 39.9375em) {
-    p.register-kit {
-        padding-left: 0;
-        padding-right: 0;
-    }
+div.perspective-section blockquote p {
+    margin-bottom: 0;
+    font-size: 1.5rem;
 }
 
 div.pricing {
