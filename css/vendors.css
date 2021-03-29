@@ -124,6 +124,43 @@ ul.benefits-list {
     margin-top: 1.5rem;
 }
 
+div.included-item {
+    margin-top: 1.5rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.included-item:first-child {
+        margin-top: 2rem;
+    }
+
+    div.included-item:not(:first-child) {
+        margin-top: 4rem;
+    }
+}
+
+div.included-item-label-container {
+    height: 5rem !important;
+}
+
+div.included-item-label {
+    margin-top: 1rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+div.included-item-quantity {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-color: #787879;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #fff;
+}
+
 div.pricing {
     padding: 0;
 }
