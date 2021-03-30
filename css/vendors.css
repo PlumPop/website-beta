@@ -95,9 +95,34 @@ h1.title {
     }
 }
 
-h2.title {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+div.why-loyalty-section {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #ea6391;
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    div.why-loyalty-section {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.why-loyalty-section {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+}
+
+div.why-loyalty-section p {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #fff;
 }
 
 div.perspective-section blockquote {
