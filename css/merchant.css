@@ -98,7 +98,7 @@ h1.title {
 div.why-loyalty-section {
     margin-top: 2rem;
     padding: 2rem;
-    background-color: #ea6391;
+    background-color: #d31e63;
 }
 
 /* medium only */
@@ -122,7 +122,7 @@ div.why-loyalty-section p {
     font-size: 2.5rem;
     font-weight: 600;
     font-style: italic;
-    color: #fff;
+    color: #f3a4bf;
 }
 
 div.perspective-section blockquote {
