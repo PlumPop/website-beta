@@ -6,7 +6,7 @@ const PLUMPOP_GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=c
 
 const SWIPER_CONTAINER_QUERY_SELECTOR = "div.swiper-container";
 
-const VENDOR_LOGO_WIDTH = 250;
+const MERCHANT_LOGO_WIDTH = 250;
 
 function openURL(url) {
     window.open(url);
@@ -97,7 +97,7 @@ function resizeSwiperContainerPadding() {
     const windowWidth = $(window).width();
     const numSlidesPerView = getNumSlidesPerView(windowWidth);
 
-    const slidesWidth = numSlidesPerView * VENDOR_LOGO_WIDTH;
+    const slidesWidth = numSlidesPerView * MERCHANT_LOGO_WIDTH;
 
     const swiperContainerElement = document.querySelector(SWIPER_CONTAINER_QUERY_SELECTOR);
     const spaceBetweenSlides = (swiperContainerContainerWidth - slidesWidth) / (numSlidesPerView + 1);
