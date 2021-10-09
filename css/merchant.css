@@ -1,59 +1,3 @@
-div#off-canvas {
-    background-color: #fff;
-}
-
-div#off-canvas > ul.menu {
-    margin-top: 1rem;
-}
-
-div#off-canvas > ul.menu > li:first-child {
-    margin-left: 1.75rem;
-}
-
-div#off-canvas > ul.menu > li {
-    margin-left: 0.5rem;
-}
-
-div#off-canvas > ul.menu > li > ul.menu > li {
-    margin-top: 1rem;
-}
-
-div#off-canvas > ul.menu > li > ul.menu > li > a {
-    color: #000;
-}
-
-ul.menu > li > a.page-link {
-    font-size: 1.15rem;
-    font-weight: 350;
-}
-
-ul.menu > li > a.current-page-link {
-    cursor: default;
-    font-weight: 900;
-}
-
-div.title-bar {
-    background-color: #bf1952;
-}
-
-div.title-bar-left > img {
-    margin-left: 2rem;
-}
-
-div.top-bar {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    background-color: #bf1952;
-}
-
-div.top-bar-right > ul.menu > li {
-    background-color: #bf1952;
-}
-
-div.top-bar-right > ul.menu > li > a {
-    color: #fff;
-}
-
 div.headliner {
     height: 600px;
 }
@@ -85,18 +29,6 @@ div.headliner > div.cell:first-child p {
     div.headliner > div.cell:first-child p {
         line-height: 5rem;
         font-size: 5rem;
-    }
-}
-
-h1.title {
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-/* small screen only */
-@media screen and (max-width: 39.9375em) {
-    h1.title {
-        margin-top: 2.5rem;
     }
 }
 
@@ -236,23 +168,4 @@ span.phone-number {
 
 span.phone-number {
     font-size: 2.5rem;
-}
-
-div.footer {
-    margin-top: 5rem;
-    height: 100px;
-
-    background-color: #bf1952;
-    color: #fff;
-}
-
-/* small screen only */
-@media screen and (max-width: 39.9375em) {
-    div.footer {
-        margin-top: 2.5rem;
-    }
-}
-
-div.footer p {
-    margin-bottom: 0;
 }
