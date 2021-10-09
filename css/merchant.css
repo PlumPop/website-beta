@@ -114,15 +114,6 @@ div.included-item-label {
     font-weight: 600;
 }
 
-div.included-item-quantity {
-    margin-top: 0.5rem;
-    padding: 1rem;
-    background-color: #787879;
-    font-size: 0.95rem;
-    font-weight: bold;
-    color: #fff;
-}
-
 div.pricing {
     padding: 0;
 }
