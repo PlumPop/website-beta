@@ -138,6 +138,10 @@ ul.pricing-list {
     padding-right: 2rem;
 }
 
+span.setup-fee-price {
+    text-decoration: line-through;
+}
+
 a.call-now {
     margin-top: 0.75rem;
     border-radius: 4px;
