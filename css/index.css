@@ -76,15 +76,22 @@ div.app-section {
 }
 
 ul.plumpop-mobile-app-screenshot-list {
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
     margin-left: 2.5rem;
+    line-height: 3.5rem;
 }
 
 ul.plumpop-mobile-app-screenshot-list > li:not(:first-child) {
-    margin-top: 4rem;
+    margin-top: 3rem;
+}
+
+ul.plumpop-mobile-app-screenshot-list > li::marker {
+    font-size: 3.5rem;
+    color: #aa1850;
 }
 
 ul.plumpop-mobile-app-screenshot-list > li > span {
+    vertical-align: super;
     font-size: 1.75rem;
     font-weight: 500;
 }
