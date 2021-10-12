@@ -116,6 +116,11 @@ img.plumpop-beacon {
 
 ul.plumpop-beacon-list {
     margin-top: 2.5rem;
+    list-style: circle;
+}
+
+ul.plumpop-beacon-list > li::marker {
+    color: #bf1952;
 }
 
 /* medium only */
