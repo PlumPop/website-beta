@@ -82,12 +82,16 @@ div.perspective-section blockquote p {
     font-size: 1.5rem;
 }
 
-div.benefits-section {
-    margin-top: 1.5rem;
-}
-
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
+    div.benefits-section {
+        margin-top: 0.5rem;
+    }
+
+    div.benefits-section img.benefits-icon {
+        margin-top: 1rem;
+    }
+
     div.benefits-section p.benefits-description-left {
         margin-top: 1rem;
     }
@@ -99,12 +103,18 @@ div.benefits-section {
 
 /* medium and up */
 @media screen and (min-width: 40em) {
+    div.benefits-section img.benefits-icon {
+        margin-top: 1.5rem;
+    }
+
     div.benefits-section p.benefits-description-left {
+        margin-top: 1.5rem;
         padding-left: 3rem;
         padding-right: 15rem;
     }
 
     div.benefits-section p.benefits-description-right {
+        margin-top: 1.5rem;
         float: right;
         padding-left: 15rem;
         padding-right: 3rem;
