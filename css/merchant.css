@@ -32,6 +32,31 @@ div.headliner > div.cell:first-child p {
     }
 }
 
+div.introduction-section > div.cell:first-child {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+div.introduction-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.introduction-section hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 25rem;
+    border: none;
+    border-top: 2px solid #000;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.introduction-section hr {
+        width: 13rem;
+    }
+}
+
 div.why-loyalty-section {
     margin-top: 2rem;
     padding: 2rem;
