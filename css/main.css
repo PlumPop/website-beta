@@ -23,15 +23,8 @@ div#off-canvas > ul.menu > li > ul.menu > li > a {
 }
 
 ul.menu > li > a.page-link {
-    font-size: 1.5rem;
-    font-weight: 375;
-}
-
-/* small screen only */
-@media screen and (max-width: 39.9375em) {
-    ul.menu > li > a.page-link {
-        font-size: 1.35rem;
-    }
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 
 ul.menu > li > a.current-page-link {
