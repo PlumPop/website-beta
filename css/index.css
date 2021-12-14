@@ -4,6 +4,13 @@ div.headliner {
     background-size: cover;
 }
 
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.headliner {
+        height: 850px;
+    }
+}
+
 div.headliner > div.cell:first-child {
     margin-top: 2.25rem;
 }
@@ -43,7 +50,7 @@ div.headliner > div.cell:first-child p {
 /* large and up */
 @media screen and (min-width: 64em) {
     div.headliner > div.cell:first-child {
-        margin-top: 27rem;
+        margin-top: 38rem;
     }
 
     div.headliner > div.cell {

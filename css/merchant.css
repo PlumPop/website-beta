@@ -1,9 +1,18 @@
 div.headliner {
     height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.headliner {
+        height: 850px;
+    }
 }
 
 div.headliner > div.cell:first-child p {
-    margin-top: 25rem;
+    margin-top: 40rem;
     font-weight: 500;
     color: #fff;
 }
