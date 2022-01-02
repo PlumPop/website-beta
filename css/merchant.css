@@ -12,9 +12,10 @@ div.headliner {
 }
 
 div.headliner > div.cell:first-child p {
-    margin-top: 40rem;
+    margin-top: 30rem;
     font-weight: 500;
     color: #fff;
+    text-shadow: 3px 3px black;
 }
 
 /* small screen only */
