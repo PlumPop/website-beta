@@ -20,6 +20,7 @@ div.headliner > div.cell:first-child p {
     font-size: 5rem;
     font-weight: 500;
     color: #fff;
+    text-shadow: 2px 2px black;
 }
 
 /* small screen only */
@@ -83,7 +84,7 @@ div.app-section {
 }
 
 ul.plumpop-mobile-app-screenshot-list {
-    margin-top: 3.5rem;
+    margin-top: 6.5rem;
     margin-left: 2.5rem;
     line-height: 3.5rem;
 }
