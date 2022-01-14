@@ -7,7 +7,7 @@ div.headliner {
 /* large and up */
 @media screen and (min-width: 64em) {
     div.headliner {
-        height: 850px;
+        height: 900px;
     }
 }
 
@@ -51,7 +51,7 @@ div.headliner > div.cell:first-child p {
 /* large and up */
 @media screen and (min-width: 64em) {
     div.headliner > div.cell:first-child {
-        margin-top: 38rem;
+        margin-top: 37rem;
     }
 
     div.headliner > div.cell {
