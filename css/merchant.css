@@ -7,12 +7,12 @@ div.headliner {
 /* large and up */
 @media screen and (min-width: 64em) {
     div.headliner {
-        height: 850px;
+        height: 900px;
     }
 }
 
 div.headliner > div.cell:first-child p {
-    margin-top: 30rem;
+    margin-top: 28rem;
     font-weight: 500;
     color: #fff;
     text-shadow: 3px 3px black;
@@ -21,6 +21,7 @@ div.headliner > div.cell:first-child p {
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
     div.headliner > div.cell:first-child p {
+        margin-top: 22rem;
         line-height: 2rem;
         font-size: 2rem;
     }
@@ -29,6 +30,7 @@ div.headliner > div.cell:first-child p {
 /* medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     div.headliner > div.cell:first-child p {
+        margin-top: 18rem;
         line-height: 4rem;
         font-size: 4rem;
     }
