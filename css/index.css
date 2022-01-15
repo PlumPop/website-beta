@@ -139,8 +139,9 @@ ul.plumpop-beacon-list > li::marker {
     }
 
     ul.plumpop-beacon-list {
-        margin-top: 13rem;
+        margin-top: 6.5rem;
         padding-left: 3.5rem;
+        line-height: 3.5rem;
     }
 }
 
