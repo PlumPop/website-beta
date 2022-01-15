@@ -107,7 +107,8 @@ ul.plumpop-mobile-app-screenshot-list > li > span {
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
     ul.plumpop-mobile-app-screenshot-list {
-        margin-top: 2rem;
+        margin-top: 3rem;
+        line-height: 2rem;
     }
 }
 
