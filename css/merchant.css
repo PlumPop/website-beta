@@ -21,9 +21,9 @@ div.headliner > div.cell:first-child p {
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
     div.headliner > div.cell:first-child p {
-        margin-top: 22rem;
-        line-height: 2rem;
-        font-size: 2rem;
+        margin-top: 17rem;
+        line-height: 4rem;
+        font-size: 3.5rem;
     }
 }
 
