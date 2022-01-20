@@ -23,3 +23,18 @@ div.content {
         margin-top: 2.5rem;
     }
 }
+
+a.return-home {
+    border-radius: 4px;
+}
+
+a.return-home:link,
+a.return-home:visited {
+    background-color: #9b111e;
+}
+
+a.return-home:active,
+a.return-home:hover,
+a.return-home:focus {
+    background-color: #b91423;
+}
