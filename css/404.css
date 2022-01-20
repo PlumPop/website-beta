@@ -24,6 +24,11 @@ div.content {
     }
 }
 
+p.page-not-found {
+    font-size: 1.25rem;
+    color: #606060;
+}
+
 a.return-home {
     border-radius: 4px;
 }
