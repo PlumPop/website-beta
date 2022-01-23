@@ -17,6 +17,10 @@ div.content {
     margin-bottom: 5rem;
 }
 
+h1 {
+    margin-bottom: 2rem;
+}
+
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
     h1 {
@@ -30,6 +34,7 @@ p.page-not-found {
 }
 
 a.return-home {
+    margin-top: 1.5rem;
     border-radius: 4px;
 }
 
