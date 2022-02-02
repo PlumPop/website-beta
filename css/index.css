@@ -30,7 +30,7 @@ div.headliner > div.cell:first-child p {
     }
 
     div.headliner > div.cell:first-child p {
-        width: 15rem;
+        width: 10rem;
         line-height: 4rem;
         font-size: 3.5rem;
     }
