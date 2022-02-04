@@ -99,6 +99,13 @@ div.why-loyalty-section p {
     color: #f3a4bf;
 }
 
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.why-loyalty-section p {
+        font-size: 2.25rem;
+    }
+}
+
 div.perspective-section blockquote {
     margin-top: 1.5rem;
     padding: 2rem;
