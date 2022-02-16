@@ -186,24 +186,6 @@ p.coming-soon {
     }
 }
 
-div.swiper-container {
-    margin-top: 1rem;
-}
-
-/* medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    div.swiper-container {
-        margin-top: 1.75rem;
-    }
-}
-
-/* large and up */
-@media screen and (min-width: 64em) {
-    div.swiper-container {
-        margin-top: 2rem;
-    }
-}
-
 h1.contact-us {
     margin-top: 3rem;
 }
